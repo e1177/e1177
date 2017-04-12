@@ -147,6 +147,10 @@ $(".remindercheckbox").on('change',function(){
 
 $("#btn-reason").prop('disabled', true);
 $("#btn-reason").addClass('btndisabled');
+	
+	
+$("#btn-reason2").prop('disabled', true);
+$("#btn-reason2").addClass('btndisabled');
 
 $('.btndisabled').css("cursor","default");
 
@@ -169,7 +173,10 @@ function countChar(val) {
 
 			$("#btn-reason").prop('disabled', false);
 			$("#btn-reason").removeClass('btndisabled');
-		    $("#btn-reason").addClass('box-nextopen');
+		        $("#btn-reason").addClass('box-nextopen');
+			
+			$("#btn-reason2").prop('disabled', false);
+			$("#btn-reason2").removeClass('btndisabled');
 			
 
 		}
@@ -179,6 +186,10 @@ function countChar(val) {
 
 			$("#btn-reason").prop('disabled', true);
 			$("#btn-reason").addClass('btndisabled');
+			$("#btn-reason2").prop('disabled', true);
+			$("#btn-reason2").addClass('btndisabled');
+			
+			
 			$('#charNum').text("obligatoriskt");
 
 		}
