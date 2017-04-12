@@ -177,6 +177,8 @@ function countChar(val) {
 			
 			$("#btn-reason2").prop('disabled', false);
 			$("#btn-reason2").removeClass('btndisabled');
+
+			$("#btn-reason2").addClass('button');
 			
 
 		}
@@ -187,8 +189,10 @@ function countChar(val) {
 			$("#btn-reason").prop('disabled', true);
 			$("#btn-reason").addClass('btndisabled');
 			$("#btn-reason2").prop('disabled', true);
+			$("#btn-reason2").removeClass('button');
+			$("#btn-reason2").addClass('box-nextopen');
 			$("#btn-reason2").addClass('btndisabled');
-			
+
 			
 			$('#charNum').text("obligatoriskt");
 
