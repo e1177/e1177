@@ -177,7 +177,7 @@ function countChar(val) {
 			
 			$("#btn-reason2").prop('disabled', false);
 			$("#btn-reason2").removeClass('btndisabled');
-
+			$("#btn-reason2").removeClass('box-nextopen');
 			$("#btn-reason2").addClass('button');
 			
 
