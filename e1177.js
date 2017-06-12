@@ -346,7 +346,7 @@ for (i = dateCounter; i < 800; i++) {
 }
 
 if (noDays) {
-	dateMenu += '<option value="zero">Det finns inga lediga tider utlagda just nu</option>';
+	dateMenu += '<option value="zero">Just nu finns det inga lediga tider utlagda</option>';
 }
 
 dateMenu += '<option value="one">Sök längre fram i tiden</option>';
