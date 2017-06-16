@@ -349,7 +349,7 @@ if (noDays) {
 	dateMenu += '<option value="zero">Just nu finns det inga lediga tider utlagda</option>';
 }
 
-dateMenu += '<option value="one">Sök längre fram i tiden</option>';
+dateMenu += '<option value="one">Sök längre fram i tiden efter augusti 2017</option>';
 $(".datemenu").html(dateMenu);
 dateMenu2 += '<option value="one">Sök längre fram i tiden</option>';
 
